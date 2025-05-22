@@ -1,9 +1,7 @@
 function removeDuplicate( nums ) {
-     let set = new Set(nums)
+    let set = new Set(nums)
     let i = 0;
-    for( let n of set ){
-        nums[i++] = n
-    }
+    for( let n of set ) nums[i++] = n
     return set.size
 }
 
